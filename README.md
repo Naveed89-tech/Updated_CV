@@ -38,9 +38,9 @@ If you want to view the source code or customize it:
 ## 📫 Contact Me
 If you'd like to discuss my work or opportunities:
 
-* **Portfolio:** [[Link to your main portfolio](https://naveedtechs.netlify.app/)]
-* **LinkedIn:** [[Link to your LinkedIn](https://www.linkedin.com/in/muhammad-naveed-857600231/)]
-* **Email:** [naveed5651@gmail.com]
+* **Portfolio:** https://naveedtechs.netlify.app/
+* **LinkedIn:** https://www.linkedin.com/in/muhammad-naveed-857600231/
+* **Email:** naveed5651@gmail.com
 
 ---
 <p align="center">
