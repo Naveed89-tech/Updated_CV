@@ -31,7 +31,7 @@ If you want to view the source code or customize it:
     ```
 2.  Navigate to the folder:
     ```bash
-    cd your-repo-name
+    cd Updated_CV
     ```
 3.  Open `cv.html` in your browser.
 
