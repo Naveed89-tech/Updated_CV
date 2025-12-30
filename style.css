@@ -468,3 +468,88 @@ h1 {
     flex-direction: column;
   }
 }
+
+
+/* print query */
+@media print {
+  /* General body styles for printing */
+  body {
+    background: #fff !important; /* White background for print */
+    color: #000 !important; /* Black text for print */
+    font-family: "Inter", sans-serif !important; /* Ensure font remains consistent */
+    line-height: 1.5;
+    margin: 0;
+    padding: 20px;
+  }
+
+  /* Remove background images and shadows to optimize print layout */
+  .top_bar, .brand, .hero, .card, .project, .footer {
+    background: none !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+
+  /* Hide elements that are unnecessary for print */
+  .btn, .actions, .top_bar_inner, .project_links, .availability, .contact-items:hover {
+    display: none !important;
+  }
+
+  /* Make sure content fits well on the page */
+  .container {
+    width: 100% !important; /* Make the container full-width for print */
+    margin: 0;
+  }
+
+  /* Adjust layout for print */
+  .layout {
+    display: block !important; /* Switch to block for printing */
+  }
+
+  /* Ensure all section titles are visible and not affected by media queries */
+  .section-title h2 {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .section-title p {
+    font-size: 12px;
+    color: #333;
+  }
+
+  /* Adjust font sizes for print readability */
+  h1, h2, h3, p {
+    font-size: 14px !important;
+  }
+
+  /* For items like contact and tech lines */
+  .contact-items .item_two, .meta {
+    font-size: 12px !important;
+  }
+
+  /* Ensure the page looks clean when printed, no extra space or overlaps */
+  .hero__left, .project .meta, .hero, .project h3 {
+    font-size: 14px !important;
+  }
+
+  /* Add page breaks for large sections, if necessary */
+  .project, .grid-2, .card {
+    page-break-inside: avoid !important;
+  }
+
+  /* Adjust image size */
+  .brand_img {
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  /* Add a footer for page number or content */
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px 0;
+  }
+}
